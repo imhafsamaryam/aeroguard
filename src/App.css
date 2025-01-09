@@ -1,0 +1,287 @@
+.bg_clip {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+  z-index: 1;
+  background: #031634;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.airplane {
+  height: 90%;
+  width: 70%;
+  position: absolute;
+  right: -20rem;
+  bottom: 0; /* Align to bottom of the screen */
+  animation: 1s fadeInBottomToTopPlane ;
+  background-image: url("/white_aeroplane.webp");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+.bg_clip::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 65%;
+  height: 100%;
+  /* background: #1c264a; */
+  background: #031634;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    /* transform: translateY(100%); */
+  }
+  
+  70% {
+    opacity: 1;
+    /* transform: translateY(0); */
+  }
+}
+@keyframes fadeInBottomToTopPlane {
+  0% {
+    opacity: 0.5;
+    transform: translateY(100%);
+  }
+ 
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInBottomToTop {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+ 
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInTopToBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  
+  70% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.bg_clip_text {
+  position: relative;
+  width: max-content;
+  text-align: left;
+  font-size: 60px;
+  width: 60%;
+  font-weight: 900;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #fff;
+  /* transform: translateY(-10%); */
+  animation: 1s fadeIn;
+  padding-left: 4rem;
+  text-shadow: 0 19px 38px rgba(0, 0, 0, 0.4), 0 15px 12px rgba(0, 0, 0, 0.22);
+  z-index: 2;
+}
+
+.text_top {
+  position: relative;
+  width: max-content;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #fff;
+  /* transform: translateY(-10%); */
+  animation: 1s fadeInBottomToTop;
+  padding-left: 4rem;
+  z-index: 2;
+}
+
+.text_bottom {
+  position: relative;
+  width: 60%;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: #9d9a9a;
+  /* transform: translateY(-10%); */
+  animation: 1s fadeInTopToBottom;
+  padding-left: 4rem;
+  z-index: 2;
+}
+
+.btn {
+  position: relative;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  color: #fff;
+  animation: 1s fadeInTopToBottom;
+  border: 1px solid #fff;
+  border-radius: 12px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.2), 0 15px 12px rgba(0, 0, 0, 0.22);
+  width: max-content;
+  margin-left: 4rem;
+  z-index: 2;
+}
+
+ 
+
+@media (max-width: 1200px) {
+  .text_top {
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+  }
+  .text_bottom {
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+  }
+  .bg_clip_text {
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+  }
+  .airplane {
+    height: 100%;
+    width: 100%;
+    top: 50vh; 
+    right: 0;
+    left: 0;
+    margin: 0 auto; /* Center horizontally */
+    bottom: 2vh; /* Align to bottom of the screen */
+  }
+
+  .bg_clip {
+    align-items: stretch;
+    padding-top: 8vh;
+    overflow: hidden;
+  }
+  .btn {
+    right: 0;
+    left: 0;
+    margin: 0 auto; /* Center horizontally */
+    font-size: 12px;
+  }
+  .align_center {
+    display: flex;
+    justify-content: start;
+    align-items: stretch;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1600px) {
+  
+  .bg_clip_text {
+    font-size: 48px;
+
+    width: 58%;
+   
+  }
+  .text_bottom{
+    width: 50%;
+    font-size: 14px;
+  }
+ 
+}
+@media (min-width: 850px) and (max-width: 1200px) {
+  
+  .airplane {
+    height: 100%;
+    width: 100%;
+    top: 42vh;
+    right: 0;
+    left: 0;
+    margin: 0 auto; /* Center horizontally */
+    bottom: 2vh; /* Align to bottom of the screen */
+  }
+ 
+}
+
+@media (max-width: 600px) {
+  .text_top {
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+  }
+  .text_bottom {
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+  }
+  .bg_clip_text {
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+  }
+  .airplane {
+    height: 100%;
+    width: 100%;
+    top: 50vh;
+    right: 0;
+    left: 0;
+    margin: 0 auto; /* Center horizontally */
+    bottom: 1vh; /* Align to bottom of the screen */
+  }
+
+  .bg_clip {
+    align-items: stretch;
+    padding-top: 10vh;
+    overflow: hidden;
+  }
+  .btn {
+    right: 0;
+    left: 0;
+    margin: 0 auto; /* Center horizontally */
+    font-size: 12px;
+  }
+  .align_center {
+    display: flex;
+    justify-content: start;
+    align-items: stretch;
+    flex-direction: column;
+    width: 100%;
+  }
+}
