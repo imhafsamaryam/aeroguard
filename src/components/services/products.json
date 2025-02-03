@@ -1,0 +1,327 @@
+[
+  {
+    "category": "Airframe Components",
+    "items": [
+      {
+        "imageSrc": "path/to/airframe_image.jpg",
+        "title": "Airframe"
+      },
+      {
+        "imageSrc": "path/to/rotables_image.jpg",
+        "title": "Rotables"
+      },
+      {
+        "imageSrc": "path/to/seat_parts_image.jpg",
+        "title": "Seat Parts"
+      },
+      {
+        "imageSrc": "path/to/liners_image.jpg",
+        "title": "Liners"
+      },
+      {
+        "imageSrc": "path/to/door_seals_image.jpg",
+        "title": "Door Seals"
+      },
+      {
+        "imageSrc": "path/to/window_seals_image.jpg",
+        "title": "Window Seals"
+      },
+      {
+        "imageSrc": "path/to/face_seals_image.jpg",
+        "title": "Face Seals"
+      },
+      {
+        "imageSrc": "path/to/carbon_seals_image.jpg",
+        "title": "Carbon Seals"
+      }
+    ]
+  },
+  {
+    "category": "Avionics & Electrical Systems",
+    "items": [
+      {
+        "imageSrc": "path/to/avionics_image.jpg",
+        "title": "Avionics"
+      },
+      {
+        "imageSrc": "path/to/cables_image.jpg",
+        "title": "Cables"
+      },
+      {
+        "imageSrc": "path/to/generators_image.jpg",
+        "title": "Generators"
+      },
+      {
+        "imageSrc": "path/to/electrical_equipment_image.jpg",
+        "title": "Electrical Equipment"
+      },
+      {
+        "imageSrc": "path/to/lamps_image.jpg",
+        "title": "Lamps"
+      },
+      {
+        "imageSrc": "path/to/spark_plugs_image.jpg",
+        "title": "Spark Plugs"
+      },
+      {
+        "imageSrc": "path/to/lighting_systems_image.jpg",
+        "title": "Lighting Systems"
+      },
+      {
+        "imageSrc": "path/to/safety_wire_image.jpg",
+        "title": "Safety Wire"
+      },
+      {
+        "imageSrc": "path/to/tapes_image.jpg",
+        "title": "Tapes"
+      }
+    ]
+  },
+  {
+    "category": "Hydraulic & Pneumatic Systems",
+    "items": [
+      {
+        "imageSrc": "path/to/hydraulics_image.jpg",
+        "title": "Hydraulics"
+      },
+      {
+        "imageSrc": "path/to/pneumatic_assemblies_image.jpg",
+        "title": "Pneumatic Assemblies"
+      },
+      {
+        "imageSrc": "path/to/hydraulic_fittings_image.jpg",
+        "title": "Hydraulic Fittings"
+      },
+      {
+        "imageSrc": "path/to/hydraulic_seals_image.jpg",
+        "title": "Hydraulic Seals"
+      },
+      {
+        "imageSrc": "path/to/hoses_image.jpg",
+        "title": "Hose Assemblies"
+      },
+      {
+        "imageSrc": "path/to/hoses_fittings_image.jpg",
+        "title": "Hose Fittings"
+      },
+      {
+        "imageSrc": "path/to/high_temp_seals_image.jpg",
+        "title": "High Temp Seals"
+      },
+      {
+        "imageSrc": "path/to/labyrinth_seals_image.jpg",
+        "title": "Labyrinth Seals"
+      },
+      {
+        "imageSrc": "path/to/oil_seals_image.jpg",
+        "title": "Oil Seals"
+      }
+    ]
+  },
+  {
+    "category": "Engine & Mechanical Components",
+    "items": [
+      {
+        "imageSrc": "path/to/starters_image.jpg",
+        "title": "Starters"
+      },
+      {
+        "imageSrc": "path/to/fuel_systems_image.jpg",
+        "title": "Fuel Systems"
+      },
+      {
+        "imageSrc": "path/to/bearings_image.jpg",
+        "title": "Bearings"
+      },
+      {
+        "imageSrc": "path/to/bushings_image.jpg",
+        "title": "Bushings"
+      },
+      {
+        "imageSrc": "path/to/piston_rings_image.jpg",
+        "title": "Piston Rings"
+      },
+      {
+        "imageSrc": "path/to/plugs_image.jpg",
+        "title": "Plugs"
+      },
+      {
+        "imageSrc": "path/to/roller_sets_image.jpg",
+        "title": "Roller Sets"
+      },
+      {
+        "imageSrc": "path/to/thrust_washers_image.jpg",
+        "title": "Thrust Washers"
+      },
+      {
+        "imageSrc": "path/to/metal_orings_image.jpg",
+        "title": "Metal O-rings"
+      }
+    ]
+  },
+  {
+    "category": "Consumables & Fasteners",
+    "items": [
+      {
+        "imageSrc": "path/to/fasteners_image.jpg",
+        "title": "Fasteners"
+      },
+      {
+        "imageSrc": "path/to/expendables_image.jpg",
+        "title": "Expendables"
+      },
+      {
+        "imageSrc": "path/to/nuts_image.jpg",
+        "title": "Nuts"
+      },
+      {
+        "imageSrc": "path/to/bolts_image.jpg",
+        "title": "Bolts"
+      },
+      {
+        "imageSrc": "path/to/screws_image.jpg",
+        "title": "Screws"
+      },
+      {
+        "imageSrc": "path/to/rivets_image.jpg",
+        "title": "Rivets"
+      },
+      {
+        "imageSrc": "path/to/washers_image.jpg",
+        "title": "Washers"
+      },
+      {
+        "imageSrc": "path/to/shims_image.jpg",
+        "title": "Shims"
+      },
+      {
+        "imageSrc": "path/to/retaining_rings_image.jpg",
+        "title": "Retaining Rings"
+      }
+    ]
+  },
+  {
+    "category": "Seals & Gaskets",
+    "items": [
+      {
+        "imageSrc": "path/to/seals_image.jpg",
+        "title": "Seals"
+      },
+      {
+        "imageSrc": "path/to/packings_image.jpg",
+        "title": "Packings"
+      },
+      {
+        "imageSrc": "path/to/gaskets_image.jpg",
+        "title": "Gaskets"
+      },
+      {
+        "imageSrc": "path/to/lip_seals_image.jpg",
+        "title": "Lip Seals"
+      },
+      {
+        "imageSrc": "path/to/peri_seals_image.jpg",
+        "title": "Peri Seals"
+      },
+      {
+        "imageSrc": "path/to/tseals_image.jpg",
+        "title": "T-seals"
+      },
+      {
+        "imageSrc": "path/to/mechanical_seals_image.jpg",
+        "title": "Mechanical Seals"
+      },
+      {
+        "imageSrc": "path/to/labyrinth_seals_image.jpg",
+        "title": "Labyrinth Seals"
+      }
+    ]
+  },
+  {
+    "category": "Tools & Ground Support Equipment",
+    "items": [
+      {
+        "imageSrc": "path/to/tools_image.jpg",
+        "title": "Tools"
+      },
+      {
+        "imageSrc": "path/to/clamps_image.jpg",
+        "title": "Clamps"
+      },
+      {
+        "imageSrc": "path/to/keys_image.jpg",
+        "title": "Keys"
+      },
+      {
+        "imageSrc": "path/to/kits_image.jpg",
+        "title": "Kits"
+      },
+      {
+        "imageSrc": "path/to/turnbuckles_image.jpg",
+        "title": "Turnbuckles"
+      },
+      {
+        "imageSrc": "path/to/wiper_blades_image.jpg",
+        "title": "Wiper Blades"
+      }
+    ]
+  },
+  {
+    "category": "Structural Components",
+    "items": [
+      {
+        "imageSrc": "path/to/brackets_image.jpg",
+        "title": "Brackets"
+      },
+      {
+        "imageSrc": "path/to/fittings_image.jpg",
+        "title": "Fittings"
+      },
+      {
+        "imageSrc": "path/to/hinges_image.jpg",
+        "title": "Hinges"
+      },
+      {
+        "imageSrc": "path/to/caps_image.jpg",
+        "title": "Caps"
+      },
+      {
+        "imageSrc": "path/to/sleeves_image.jpg",
+        "title": "Sleeves"
+      },
+      {
+        "imageSrc": "path/to/pins_image.jpg",
+        "title": "Pins"
+      },
+      {
+        "imageSrc": "path/to/spacers_image.jpg",
+        "title": "Spacers"
+      }
+    ]
+  },
+  {
+    "category": "Filters & Lubrication Systems",
+    "items": [
+      {
+        "imageSrc": "path/to/filters_image.jpg",
+        "title": "Filters"
+      },
+      {
+        "imageSrc": "path/to/lube_fittings_image.jpg",
+        "title": "Lube Fittings"
+      },
+      {
+        "imageSrc": "path/to/felt_image.jpg",
+        "title": "Felt"
+      },
+      {
+        "imageSrc": "path/to/ferrules_image.jpg",
+        "title": "Ferrules"
+      },
+      {
+        "imageSrc": "path/to/lube_seals_image.jpg",
+        "title": "Lube Seals"
+      }
+    ]
+  }
+]

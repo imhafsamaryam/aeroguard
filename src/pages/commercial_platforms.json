@@ -1,0 +1,47 @@
+[
+  {
+    "imageSrc": "/stock_images/aircrafts_new/airbus310.webp",
+    "title": "Airbus 310"
+  },
+  {
+    "imageSrc": "/stock_images/aircrafts_new/airbus320.webp",
+    "title": "Airbus 320"
+  },
+  {
+    "imageSrc": "/stock_images/aircrafts_new/airbus330.webp",
+    "title": "Airbus 330"
+  },
+  {
+    "imageSrc": "/stock_images/aircrafts_new/atr72600.webp",
+    "title": "ATR-72-600"
+  },
+  {
+    "imageSrc": "/stock_images/aircrafts_new/atr42500.webp",
+    "title": "ATR-42-500"
+  },
+  {
+    "imageSrc": "/stock_images/aircrafts_new/boeing727.webp",
+    "title": "Boeing 727"
+  },
+  {
+    "imageSrc": "/stock_images/aircrafts_new/boeing737.webp",
+    "title": "Boeing 737"
+  },
+  {
+    "imageSrc": "/stock_images/aircrafts_new/boeing747.webp",
+    "title": "Boeing 747"
+  },
+
+  {
+    "imageSrc": "/stock_images/aircrafts_new/boeing777.webp",
+    "title": "Boeing 777"
+  },
+  {
+    "imageSrc": "/stock_images/aircrafts_new/boeing787.webp",
+    "title": "Boeing 787"
+  },
+  {
+    "imageSrc": "/stock_images/aircrafts_new/bombardier.webp",
+    "title": "Bombardier DCH 8 Q400"
+  }
+]

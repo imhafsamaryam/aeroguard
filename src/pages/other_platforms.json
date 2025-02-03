@@ -1,0 +1,25 @@
+[
+    {
+     "imageSrc": "/stock_images/aircrafts/cj6.webp",
+     "title": "CJ6"
+    },
+    {
+        "imageSrc": "/stock_images/aircrafts/ilyushin.webp",
+        "title": "Ilyushin Series"
+       },
+    {
+     "imageSrc": "/stock_images/aircrafts/y12.webp",
+     "title": "Y12"
+    },
+    {
+     "imageSrc": "/stock_images/aircrafts/mig17.webp",
+     "title": "MIG Series"
+    },
+    {
+        "imageSrc": "/stock_images/aircrafts/sukhoi.webp",
+        "title": "Sukhoi Series"
+       }
+       
+    
+      
+  ]

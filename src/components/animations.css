@@ -1,0 +1,229 @@
+.video {
+  width: 100%;
+  height: auto;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+/* Fade In Up */
+
+@keyframes ts-fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 1.25rem, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.ts-fadeInUp {
+  animation-name: ts-fadeInUp;
+  animation-duration: 1s; /* Add duration */
+  animation-fill-mode: both; /* Ensure the animation stays in the final state */
+}
+
+/* Fade In Down */
+
+@keyframes ts-fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -1rem, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.ts-fadeInDown {
+  animation-name: ts-fadeInDown;
+  animation-duration: 1s; /* Add duration */
+  animation-fill-mode: both; /* Ensure the animation stays in the final state */
+}
+
+/* Slide right to left */
+
+@keyframes ts-slideRight-Left {
+  from {
+    opacity: 0;
+    transform: translate3d(6rem, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.ts-slideRight-Left {
+  animation-name: ts-slideRight-Left;
+  animation-duration: 1s; /* Add duration */
+  animation-fill-mode: both; /* Ensure the animation stays in the final state */
+}
+
+/* Slide left to right */
+
+@keyframes ts-slideLeft-Right {
+  from {
+    opacity: 0;
+    transform: translate3d(-6rem, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.ts-slideLeft-Right {
+  animation-name: ts-slideLeft-Right;
+  animation-duration: 1s; /* Add duration */
+  animation-fill-mode: both; /* Ensure the animation stays in the final state */
+}
+
+/* Zoom In Out */
+
+@keyframes ts-zoomInOut {
+  from {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.ts-zoomInOut {
+  /* background-attachment: fixed; */
+  animation-name: ts-zoomInOut;
+  animation-duration: 1s; /* Add duration */
+  animation-fill-mode: both; /* Ensure the animation stays in the final state */
+}
+
+/* Zoom Out In */
+
+@keyframes ts-zoomOutIn {
+  from {
+    opacity: 0.6;
+    transform: scale(1.1);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.ts-zoomOutIn {
+  /* background-attachment: fixed; */
+  animation-name: ts-zoomOutIn;
+  animation-duration: 1s; /* Add duration */
+  animation-fill-mode: both; /* Ensure the animation stays in the final state */
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-out {
+  animation: fadeOut 0.5s ease-in-out;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+/* animations.css */
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.pop-in {
+  animation: popIn 3s ease-out forwards;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scroll {
+  display: inline-flex;
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.animate-fadeOut {
+  animation: fadeOut 0.5s ease-in-out forwards;
+}

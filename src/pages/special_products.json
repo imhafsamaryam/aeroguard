@@ -1,0 +1,16 @@
+[
+  {
+    "imageSrc": "/stock_images/aircrafts_new/armycoveralls.webp",
+    "title": "Army Coveralls"
+  },
+
+  {
+    "imageSrc": "/stock_images/aircrafts_new/drone.webp",
+    "title": "Drone"
+  },
+
+  {
+    "imageSrc": "/stock_images/aircrafts_new/parachute.webp",
+    "title": "Parachute"
+  }
+]
