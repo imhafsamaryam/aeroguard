@@ -102,8 +102,7 @@ const AircraftOnGroundPage = () => {
                     {" "}
                     Aeroguard leverages a well-established network of OEMs,
                     workshops, and suppliers across the globe to locate and
-                    deliver critical spare parts for military and commercial
-                    aircraft.
+                    deliver critical spare parts for commercial aircrafts.
                   </span>
                 </div>
               </div>

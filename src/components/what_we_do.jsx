@@ -87,17 +87,17 @@ const WhatWeDo = () => {
               </h3>
               <p className="text-gray-600 text-sm lg:text-md  tracking-wider leading-6">
                 {/* Aeroguard is your trusted partner for procuring spares,
-                machinery, and consumables for both military and commercial
+                machinery, and consumables   commercial
                 fixed-wing and rotary aircraft. With a robust and well-connected
                 network, we specialize in sourcing even the obsolete parts,
                 including those not listed on conventional sourcing platforms
                 like ILS. */}
                 Aeroguard serves as your reliable partner for sourcing spare
-                parts, machinery, and consumables for both military and
-                commercial fixed-wing and rotary aircraft. Leveraging a strong
-                and expansive network, we specialize in acquiring even
-                hard-to-find or obsolete parts, including those not readily
-                available on traditional sourcing platforms like ILS.
+                parts, machinery, and consumables for commercial fixed-wing and
+                rotary aircraft. Leveraging a strong and expansive network, we
+                specialize in acquiring even hard-to-find or obsolete parts,
+                including those not readily available on traditional sourcing
+                platforms like ILS.
               </p>
             </div>
 

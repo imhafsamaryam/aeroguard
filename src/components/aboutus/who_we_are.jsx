@@ -72,9 +72,9 @@ const WhoWeAre = () => {
               Aeroguard Solutions Pte Ltd,{" "}
             </span>
             <span className="ml-[0.5rem] text-md text-gray-600 tracking-wider  leading-6 ">
-              incorporated in Singapore, is a specialist and strategic partner
-              to leading defence and commercial aviation organization for
-              aircraft maintenance, repair and overhaul (MRO).
+              is a specialist and strategic partner to leading defence and
+              commercial aviation organization for aircraft maintenance, repair
+              and overhaul (MRO).
             </span>
           </div>
           {/* <h2

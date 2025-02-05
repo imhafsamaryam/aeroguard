@@ -26,7 +26,7 @@ const ProductsPage = () => {
       /> */}
       <SingleServiceLayout
         overviewText={
-          "At Aeroguard, we take pride in offering a comprehensive portfolio of high-quality aviation products tailored to meet the diverse needs of both military and commercial fleets. Our product range includes OEM-certified spare parts, machinery, assemblies, and consumables, ensuring that your aircraft remains operational and compliant with industry standards."
+          "At Aeroguard, we take pride in offering a comprehensive portfolio of high-quality aviation products tailored to meet the diverse needs of commercial fleets. Our product range includes OEM-certified spare parts, machinery, assemblies, and consumables, ensuring that your aircraft remains operational and compliant with industry standards."
         }
         imgSrc={"/stock_images/products_page.webp"}
         secondTitle={"Explore Aviation Essentials"}

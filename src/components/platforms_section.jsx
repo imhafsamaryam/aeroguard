@@ -47,12 +47,12 @@ const PlatformsSection = () => {
     }
   }, [inView]);
 
-  const [activeTab, setActiveTab] = useState("military");
+  const [activeTab, setActiveTab] = useState("jet");
 
   const tabs = [
-    { id: "military", label: "Military Aircrafts / Helicopters" },
     { id: "jet", label: "Executive Jet Aircrafts/ Private Jet Aircrafts" },
-    { id: "commercial", label: "Commercial Platforms" },
+    { id: "military", label: " Helicopters" },
+    { id: "commercial", label: "Commercial Aircrafts" },
     { id: "special", label: "Special Products" },
   ];
 
@@ -75,7 +75,7 @@ const PlatformsSection = () => {
             visibleIndex >= 1 ? "ts-zoomInOut" : "opacity-0"
           } text-2xl md:text-3xl lg:text-4xl text-center font-bold`}
         >
-          Serviced Military & Commercial Aircrafts
+          Serviced Commercial Aircrafts
         </h2>
       </div>
       <div className="w-full   mx-auto">

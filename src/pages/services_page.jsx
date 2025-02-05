@@ -243,8 +243,7 @@ const ServicesPage = () => {
                     Our product portfolio includes OEM-certified spares,
                     consumables, and overhauled units tailored to meet diverse
                     aviation needs. We specialize in sourcing hard-to-find parts
-                    and provide solutions for both military and commercial
-                    aircraft.
+                    and provide solutions for commercial aircrafts.
                   </p>
                 </div>
               </div>{" "}
