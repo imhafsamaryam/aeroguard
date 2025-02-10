@@ -69,7 +69,7 @@ const WhoWeAre = () => {
           >
             {" "}
             <span className="text-[#004AAD] text-md  ">
-              Aeroguard Solutions Pte Ltd,{" "}
+              Aeroguard 360 Services
             </span>
             <span className="ml-[0.5rem] text-md text-gray-600 tracking-wider  leading-6 ">
               is a specialist and strategic partner to leading defence and
