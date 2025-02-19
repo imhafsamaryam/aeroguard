@@ -14,7 +14,8 @@ const WhyChooseUs = () => {
           hasAnimated.current = true; // Mark animation as done
         }
       },
-      { threshold: window.innerWidth < 1200 ? 0.2 : 0.6 } // Trigger when 20% of the element is visible
+      { threshold: 0.2 } // Trigger when 20% of the element is visible
+      // { threshold: window.innerWidth < 1200 ? 0.2 : 0.6 } // Trigger when 20% of the element is visible
     );
 
     if (sectionRef.current) {

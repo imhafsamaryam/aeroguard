@@ -12,10 +12,10 @@ const WhoWeAre = () => {
         if (entry.isIntersecting && !hasAnimated.current) {
           setInView(true); // Update visibility state
           hasAnimated.current = true; // Mark animation as done
-          console.log(`width ${window.innerWidth}`);
         }
       },
-      { threshold: window.innerWidth < 1200 ? 0.2 : 0.6 } // Trigger based on screen width
+      { threshold: 0.2 } // Trigger based on screen width
+      // { threshold: window.innerWidth < 1200 ? 0.2 : 0.6 } // Trigger based on screen width
     );
 
     if (sectionRef.current) {
