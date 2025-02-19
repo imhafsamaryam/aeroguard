@@ -79,8 +79,8 @@ const PlatformsSection = () => {
         </h2>
       </div>
       <div className="w-full   mx-auto">
-        {/* Tabs Navigation */}
-        <div className="flex justify-center items-center space-x-4  bg-white  pb-[2rem] sticky top-[4rem] z-10">
+        {/* (/* Tabs Navigation */}
+        <div className="container mx-auto flex w-[90vw] overflow-x-scroll md:overflow-x-hidden justify-start md:justify-center  items-center space-x-4 bg-white pb-[2rem] sticky top-[4rem] z-10">
           {tabs.map((tab) => (
             <button
               key={tab.id}
