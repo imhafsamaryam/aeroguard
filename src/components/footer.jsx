@@ -80,10 +80,9 @@ const Footer = () => {
               </a>
             </div>
             <a
-            // href={"/files/aeroguard-brochure.pdf"}
-            // download="Aeroguard Brochure"
-            //
-            // rel="noreferrer"
+              href={"/files/Brochure-Aeroguard.pdf"}
+              download="Aeroguard Brochure"
+              rel="noreferrer"
             >
               <button className="mt-[2rem] lg:mt-0 border hover:border-[#B9CDE9] hover:bg-[#B9CDE9] hover:text-[#004AAD]  border-[#B9CDE9] text-[#B9CDE9] font-semibold px-4 py-2 rounded-md">
                 Download Brochure

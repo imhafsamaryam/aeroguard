@@ -92,10 +92,10 @@ const SingleServiceLayout = ({
                       insights about our services and solutions.
                     </p>
                     <a
-                    // href={"/files/aeroguard-brochure.pdf"}
-                    // download="Aeroguard Brochure"
-                    // target="_blank"
-                    // rel="noreferrer"
+                      href={"/files/Brochure-Aeroguard.pdf"}
+                      download="Aeroguard Brochure"
+                      target="_blank"
+                      rel="noreferrer"
                     >
                       <button className="border border-[#B9CDE9] text-[#004AAD] font-semibold px-4 py-2 rounded-md">
                         Download
