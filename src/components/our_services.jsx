@@ -22,7 +22,7 @@ const OurServices = () => {
           // hasAnimated.current = true; // Mark animation as done
         }
       },
-      { threshold: window.innerWidth < 1200 ? 0.1 : 0.7 } // Trigger when 60% of the element is visible
+      { threshold: window.innerWidth < 1200 ? 0.1 : 0.2 } // Trigger when 60% of the element is visible
     );
 
     if (sectionRef.current) {
