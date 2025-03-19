@@ -1,4 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
+import ReactGA from "react-ga4";
 
 const ContactUsSection = () => {
   const [inView, setInView] = useState(false); // Track visibility
@@ -61,6 +62,11 @@ const ContactUsSection = () => {
 
   const onHandleSubmit = (e) => {
     e.preventDefault();
+    ReactGA.event({
+      category: "engagement",
+      action: "form_submission",
+      label: "Contact Form",
+    });
     setIsLoading(true);
     if (!userEmail || !subject || !message || !fullName) {
       alert("Please fill all fields");

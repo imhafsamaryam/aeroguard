@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import "./animations.css";
+import ReactGA from "react-ga4";
 
 const Navbar = () => {
   const [scrolling, setScrolling] = useState(false);
@@ -38,6 +39,13 @@ const Navbar = () => {
     return location.pathname === path ? "text-[#004AAD]" : "text-black";
   };
 
+  const handleClickNav = (label) => {
+    ReactGA.event({
+      category: "navigation",
+      action: "button_click",
+      label: label,
+    });
+  };
   return (
     <nav
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
@@ -55,6 +63,7 @@ const Navbar = () => {
 
         <div className="hidden lg:flex justify-center items-center space-x-12">
           <a
+            onClick={() => handleClickNav("home page navigation")}
             href="/"
             className={`${getLinkClass(
               "/"
@@ -63,6 +72,7 @@ const Navbar = () => {
             Home
           </a>
           <a
+            onClick={() => handleClickNav("about us page navigation")}
             href="/aboutus"
             className={`${getLinkClass(
               "/aboutus"
@@ -74,7 +84,12 @@ const Navbar = () => {
             <button className="border-b-2 border-transparent hover:border-b-2 text-sm hover:border-[#004AAD]  inline-flex items-center">
               <div className={`${getLinkClass("/services")} pr-2`}>
                 {" "}
-                <a href="/services">Our Services</a>{" "}
+                <a
+                  onClick={() => handleClickNav("our services page navigation")}
+                  href="/services"
+                >
+                  Our Services
+                </a>{" "}
               </div>
               <svg
                 className={`${
@@ -89,7 +104,12 @@ const Navbar = () => {
               </svg>
             </button>
             <ul className="dropdown-menu absolute hidden bg-white rounded-lg shadow-lg w-[15rem]  py-2 px-4  pt-1">
-              <a href="/services/preventative-maintenance">
+              <a
+                onClick={() =>
+                  handleClickNav("preventative-maintenance page navigation")
+                }
+                href="/services/preventative-maintenance"
+              >
                 <li
                   // onClick={() => navigateToTab(0)}
                   // onClick={() => {
@@ -103,7 +123,12 @@ const Navbar = () => {
                   Preventative Maintenance{" "}
                 </li>
               </a>
-              <a href="/services/overhaul-management">
+              <a
+                onClick={() =>
+                  handleClickNav("overhaul-management page navigation")
+                }
+                href="/services/overhaul-management"
+              >
                 <li
                   // onClick={() => navigateToTab(1)}
                   // onClick={() => {
@@ -117,7 +142,12 @@ const Navbar = () => {
                   Overhaul Management{" "}
                 </li>
               </a>
-              <a href="/services/aircraft-on-ground">
+              <a
+                onClick={() =>
+                  handleClickNav("aircraft-on-ground page navigation")
+                }
+                href="/services/aircraft-on-ground"
+              >
                 <li
                   // onClick={() => navigateToTab(2)}
                   // onClick={() => {
@@ -130,7 +160,10 @@ const Navbar = () => {
                   Aircraft on Ground
                 </li>
               </a>{" "}
-              <a href="/services/products">
+              <a
+                onClick={() => handleClickNav("products page navigation")}
+                href="/services/products"
+              >
                 <li
                   // onClick={() => navigateToTab(3)}
                   // onClick={() => {
@@ -143,7 +176,10 @@ const Navbar = () => {
                   Products
                 </li>{" "}
               </a>{" "}
-              <a href="/services/capabilities">
+              <a
+                onClick={() => handleClickNav("capabilities page navigation")}
+                href="/services/capabilities"
+              >
                 <li
                   // onClick={() => navigateToTab(4)}
                   // onClick={() => {
@@ -160,6 +196,7 @@ const Navbar = () => {
           </div>
 
           <a
+            onClick={() => handleClickNav("platforms page navigation")}
             href="/platforms"
             className={`${getLinkClass(
               "/platforms"
@@ -168,6 +205,7 @@ const Navbar = () => {
             Platforms
           </a>
           <a
+            onClick={() => handleClickNav("contactus page navigation")}
             href="/contactus"
             className={`${getLinkClass(
               "/contactus"

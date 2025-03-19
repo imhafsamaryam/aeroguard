@@ -10,30 +10,67 @@ import ProductsPage from "./pages/products_page";
 import CapabilitiesPage from "./pages/capabilities_page";
 import ContactUsPage from "./pages/contact_us_page";
 import PlatformsPage from "./pages/platforms_page";
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-NPBHRRXW8Z");
 
 function App() {
+  const updateTracking = () => {
+    ReactGA.pageview(window.location.pathname);
+
+    // window.ga("send", "pageview", {
+    //   page: window.location.pathname,
+    // });
+  };
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path={"/aboutus"} element={<AboutUsPage />} />
-        <Route path={"/services"} element={<ServicesPage />} />
-        <Route path={"/contactus"} element={<ContactUsPage />} />
-        <Route path={"/platforms"} element={<PlatformsPage />} />
+        <Route component={updateTracking} path="/" element={<HomePage />} />
         <Route
+          component={updateTracking}
+          path={"/aboutus"}
+          element={<AboutUsPage />}
+        />
+        <Route
+          component={updateTracking}
+          path={"/services"}
+          element={<ServicesPage />}
+        />
+        <Route
+          component={updateTracking}
+          path={"/contactus"}
+          element={<ContactUsPage />}
+        />
+        <Route
+          component={updateTracking}
+          path={"/platforms"}
+          element={<PlatformsPage />}
+        />
+        <Route
+          component={updateTracking}
           path={"/services/preventative-maintenance"}
           element={<PreventiveMaintenancePage />}
         />
         <Route
+          component={updateTracking}
           path={"/services/overhaul-management"}
           element={<OverhaulManagementPage />}
         />
         <Route
+          component={updateTracking}
           path={"/services/aircraft-on-ground"}
           element={<AircraftOnGroundPage />}
         />
-        <Route path={"/services/products"} element={<ProductsPage />} />
-        <Route path={"/services/capabilities"} element={<CapabilitiesPage />} />
+        <Route
+          component={updateTracking}
+          path={"/services/products"}
+          element={<ProductsPage />}
+        />
+        <Route
+          component={updateTracking}
+          path={"/services/capabilities"}
+          element={<CapabilitiesPage />}
+        />
       </Routes>
     </BrowserRouter>
   );
