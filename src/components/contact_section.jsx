@@ -169,7 +169,7 @@ const ContactUsSection = () => {
                 className="w-7 h-7 "
               />
               <p className="text-sm lg:text-[16px] text-gray-200">
-                aeroguard360services@gmail.com{" "}
+                rfq@aeroguard360services.com{" "}
               </p>
             </div>
           </div>

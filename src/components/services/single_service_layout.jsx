@@ -92,7 +92,7 @@ const SingleServiceLayout = ({
                       insights about our services and solutions.
                     </p>
                     <a
-                      href={"/files/Brochure-Aeroguard.pdf"}
+                      href={"/files/Aeroguard-Brochure.pdf"}
                       download="Aeroguard Brochure"
                       target="_blank"
                       rel="noreferrer"

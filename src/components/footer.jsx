@@ -80,7 +80,7 @@ const Footer = () => {
               </a>
             </div>
             <a
-              href={"/files/Brochure-Aeroguard.pdf"}
+              href={"/files/Aeroguard-Brochure.pdf"}
               download="Aeroguard Brochure"
               rel="noreferrer"
             >
